@@ -8,7 +8,7 @@ const makeTeam = team => {
 
 
     const  generateManager = manager = {
-        ` return ${manager.getName()} etc etc`
+        return `${manager.getName()} etc etc`
     }
     const html = [];
         html.push(team
@@ -20,7 +20,7 @@ const makeTeam = team => {
 }
 //We are exporting out an anonymous function
 
-module.exports = team => {
+    module.exports = team => {
     return `<!DOCTYPE html>
     <html lang="en">
     <head>
