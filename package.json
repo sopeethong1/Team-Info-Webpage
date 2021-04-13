@@ -1,0 +1,20 @@
+{
+  "name": "Team-Info-Webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sopeethong1/Team-Info-Webpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sopeethong1/Team-Info-Webpage/issues"
+  },
+  "homepage": "https://github.com/sopeethong1/Team-Info-Webpage#readme"
+}
