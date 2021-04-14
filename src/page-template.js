@@ -1,5 +1,5 @@
 // generate the HTML pages
-const makeTeam = team => {
+
 //a method for a template to render manager info
 
 //a method for a template to render engineer info
@@ -7,8 +7,19 @@ const makeTeam = team => {
 // a method for a template to render intern info
 
 const generateTeam = team => {
+
     const generateManager = manager => {
-        `return ${manager.getName()} etc etc`
+        return 
+        `<div class="card-deck">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+${manager.getName()}`
     }
     const html = [];
         html.push(team
@@ -20,17 +31,17 @@ const generateTeam = team => {
 //We are exporting out an anonymous function
 
     module.exports = team => {
-    return `<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        YOUR METHOD GOES HERE THE CARDS OF MANAGER, INTERN, ENGINEER, WILL BE 
-        ${someFunction(team)}
-    </body>
-    </html> `
+    return ` `
 }}
+
+const generateEngineer = Engineer => {
+    return 
+    `<div class="card-deck">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
