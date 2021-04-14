@@ -6,9 +6,9 @@ const makeTeam = team => {
 
 // a method for a template to render intern info
 
-
-    const  generateManager = manager = {
-        return `${manager.getName()} etc etc`
+const generateTeam = team => {
+    const generateManager = manager => {
+        `return ${manager.getName()} etc etc`
     }
     const html = [];
         html.push(team
@@ -16,8 +16,7 @@ const makeTeam = team => {
             .map(manager => generateManager(manager))
         );
         return html.join("");
-
-}
+    }
 //We are exporting out an anonymous function
 
     module.exports = team => {
@@ -33,11 +32,5 @@ const makeTeam = team => {
         YOUR METHOD GOES HERE THE CARDS OF MANAGER, INTERN, ENGINEER, WILL BE 
         ${someFunction(team)}
     </body>
-    </html>
-    
-    `
-}
-
-
-
-
+    </html> `
+}}
