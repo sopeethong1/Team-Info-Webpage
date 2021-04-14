@@ -60,7 +60,8 @@ function runApp() {
               fs.mkdirSync(OUTPUT_DIR)
             }
             fs.writeFileSync(outputPath, render(membersArray), "utf-8");
-          }   
+        }   
+        
     }
 
 
