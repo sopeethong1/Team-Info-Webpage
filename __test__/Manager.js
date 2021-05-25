@@ -1,9 +1,9 @@
-const employeeArray = require('../index');
-const Employee = require('../lib/employee');
+const ManagerArray = require('../index');
+const Manager = require('../lib/Manager');
 
 describe("work", () => {
     it("works", () => {
-        const employeeArray = [
+        const ManagerArray = [
                 {
                   name: 'Sopee',
                   id: '222',
@@ -37,10 +37,10 @@ describe("work", () => {
                   type: 'Intern'
                 }
               ];
-        expect(employeeArray.length === 4).toEqual(true);
+        expect(ManagerArray.length === 4).toEqual(true);
     });
     it("work", () => {
-        cconst employeeArray = [
+        cconst ManagerArray = [
           {
             name: 'Sopee',
             id: '222',
@@ -74,10 +74,11 @@ describe("work", () => {
             type: 'Intern'
           }
         ];
-          for (i=0; i < employeeArray.length; i++) {
-            var newEmployee = new Employee(employeeArray[i].name, employeeArray[i].id, employeeArray[i].email, employeeArray[i].type);
-            console.log(newEmployee);
+          for (i=0; i < ManagerArray.length; i++) {
+            var newManager = new Manager(ManagerArray[i].name, ManagerArray[i].id, ManagerArray[i].email, ManagerArray[i].type);
+            console.log(newManager);
           }
-    expect(newEmployee.name = 'Sopee');
+    expect(newManager.name = 'Sopee');
     });
-  }
+
+}
