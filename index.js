@@ -11,6 +11,7 @@
 // require that page-template.js=
 const inquirer = require("inquirer");
 const Manager = require(`./lib/Manager`);
+const Intern = require('./lib/Intern');
 const render = require(`./src/page-template.js`);
 const path = require("path");
 const fs = require("fs");

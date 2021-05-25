@@ -32,7 +32,7 @@ describe("work", () => {
                   name: 'Sandy',
                   id: '555',
                   email: 'Sandy@gmail.com',
-                  school: 'Ogelthorpe',
+                  school: 'Tech',
                   addMore: 'no',
                   type: 'Intern'
                 }
