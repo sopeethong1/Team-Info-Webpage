@@ -35,4 +35,4 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
 ## Screenshot
-https://github.com/sopeethong1/Team-Info-Webpage/blob/20bbc3344c33709314c4afe4648b4aba103b78d1/asset/Screen%20Shot%202021-05-25%20at%203.03.31%20AM.png
+![image](https://user-images.githubusercontent.com/78446989/119454500-990ab000-bd06-11eb-9459-fa6da5b65214.png)
